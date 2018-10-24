@@ -57,6 +57,18 @@
         </router-link>
       </div>
 
+      <div is="sui-card-group" :widths="3" stackable>
+        <router-link to="/layouts/home_page" is="sui-card">
+          <sui-image src="static/images/layouts/homepage.png" />
+          <sui-card-content>
+            <sui-card-header>Fixed Menu</sui-card-header>
+            <sui-card-description>
+              A simple, responsive homepage design with sidebar.
+            </sui-card-description>
+          </sui-card-content>
+        </router-link>
+      </div>
+
     </div>
   </div>
 </template>

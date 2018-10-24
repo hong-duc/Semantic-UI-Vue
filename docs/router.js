@@ -9,6 +9,7 @@ import Layouts from './Layouts';
 import Theming from './Layouts/Theming';
 import Login from './Layouts/Login';
 import FixedMenu from './Layouts/FixedMenu';
+import HomePage from './Layouts/HomePage';
 import QuickStart from '../README.md';
 import Contributing from '../CONTRIBUTING.md';
 
@@ -27,6 +28,10 @@ const router = new Router({
     {
       path: '/layouts/fixed_menu',
       component: FixedMenu,
+    },
+    {
+      path: '/layouts/home_page',
+      component: HomePage,
     },
     {
       path: '/',
